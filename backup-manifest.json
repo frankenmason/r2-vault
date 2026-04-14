@@ -1,0 +1,23 @@
+{
+  "generated_at_utc": "2026-04-14",
+  "sanitized_backup_md": "/opt/data/public-backup/r2-public-backup.md",
+  "source_archive": "/opt/data/public-backup/r2-public-backup-2026-04-13.zip",
+  "reference_file": "/opt/data/public-backup/push-reference.md",
+  "included_files": [
+    "README.md",
+    "config-summary.json",
+    "backup-manifest.json",
+    "r2-public-backup.md",
+    "push-reference.md"
+  ],
+  "excluded": [
+    "raw tokens",
+    "raw .env",
+    "Telegram bot token",
+    "OPENAI_API_KEY",
+    "GITHUB_PAT value",
+    "session contents",
+    "private logs with secrets",
+    "full venv directories"
+  ]
+}

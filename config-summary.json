@@ -1,0 +1,61 @@
+{
+  "generated_at_utc": "2026-04-14",
+  "source": "/opt/data/config.yaml",
+  "runtime": {
+    "default_model": "gpt-5.4-mini",
+    "default_provider": "openai-codex",
+    "fallback_model": {
+      "model": "gpt-4o",
+      "provider": "copilot"
+    },
+    "gateway": {
+      "host": "127.0.0.1",
+      "port": 42617
+    },
+    "workspace": "/opt/data/workspace",
+    "HERMES_HOME": "/opt/data",
+    "memory_enabled": true,
+    "user_profile_enabled": true,
+    "memory_char_limit": 2200,
+    "user_char_limit": 1375,
+    "approvals_mode": "manual",
+    "security_redact_secrets": true
+  },
+  "terminal": {
+    "backend": "local",
+    "cwd": "/opt/data/workspace",
+    "timeout": 180,
+    "container_persistent": true,
+    "container_cpu": 1,
+    "container_memory": 5120,
+    "container_disk": 51200
+  },
+  "browser": {
+    "allow_private_urls": false,
+    "record_sessions": false,
+    "inactivity_timeout": 120,
+    "command_timeout": 30
+  },
+  "mcp_servers": [
+    "context-mode",
+    "exa",
+    "memory",
+    "gbrain"
+  ],
+  "telegram": {
+    "home_channel": "8004316892",
+    "allowed_users": [
+      "8004316892"
+    ]
+  },
+  "privacy": {
+    "redact_pii": false,
+    "redact_secrets": true
+  },
+  "notes": [
+    "No raw tokens included",
+    "No .env contents included",
+    "No session logs included",
+    "No full venv directories included"
+  ]
+}
