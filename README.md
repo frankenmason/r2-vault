@@ -11,4 +11,7 @@ Contents:
 Latest archive reference:
 - /opt/data/public-backup/r2-public-backup-2026-04-14.zip
 
+Usage:
+- Treat the archive path above as reference-only; do not add the raw zip to git.
+
 Secrets are excluded.
